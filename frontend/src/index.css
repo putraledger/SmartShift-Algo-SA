@@ -1,0 +1,33 @@
+/* Reset dasar agar bersih */
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+}
+
+/* Efek Hover untuk Card/Kotak Widget */
+.hover-card {
+  transition: all 0.3s ease;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Efek Hover untuk Tombol Menu Sidebar */
+.sidebar-btn {
+  transition: all 0.2s ease;
+}
+.sidebar-btn:hover {
+  background-color: #3f474e !important;
+  padding-left: 20px !important; /* Efek bergeser ke kanan sedikit saat di-hover */
+}
+
+/* Animasi Loading Berputar */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.spinner {
+  animation: spin 1s linear infinite;
+}

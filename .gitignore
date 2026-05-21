@@ -1,0 +1,15 @@
+# Mengabaikan folder raksasa React
+node_modules/
+dist/
+.DS_Store
+
+# Mengabaikan folder mesin Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Mengabaikan file rahasia & database sementara
+.env
+*.db
+*.sqlite3
